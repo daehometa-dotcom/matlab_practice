@@ -1,6 +1,6 @@
 # MATLAB Practice
 
-인공지능개론 수업의 MATLAB 실습과 과제를 주차별로 정리한 저장소입니다.
+인공지능개론 수업의 MATLAB 실습과 Python 과제를 주차별로 정리한 저장소입니다.
 붓꽃(Iris) 데이터를 활용해 지도학습과 비지도학습의 차이를 공부합니다.
 
 ## 주차별 실습
@@ -10,12 +10,14 @@
 | 3주차 | KNN 분류, 데이터 시각화, 특징 공간 | 지도학습 | [week03_knn](week03_knn) |
 | 4주차 | 계층적 군집, K-means, 군집 공간 시각화 | 비지도학습 | [week04_clustering](week04_clustering) |
 | 5주차 | Gaussian Naive Bayes, 사전확률·우도, 정확도 | 지도학습 | [week05_naive_bayes](week05_naive_bayes) |
+| 7주차 | 혼동행렬 기반 이진 분류 성능평가 (Python) | 분류 결과 평가 | [week07_evaluation](week07_evaluation) |
 
 2주차는 개요·수학 리뷰에 해당하며, 현재 정리할 별도 실습 코드는 없어 폴더를 만들지 않았습니다.
 
 ## 실행 환경
 
-- MATLAB과 Statistics and Machine Learning Toolbox가 필요합니다.
+- 3~5주차 실습은 MATLAB과 Statistics and Machine Learning Toolbox가 필요합니다.
+- 7주차 과제는 Python 3에서 실행하며 외부 라이브러리가 필요하지 않습니다.
 - 데이터는 `load fisheriris`로 불러옵니다. 별도 CSV 다운로드는 필요하지 않습니다.
 - MATLAB의 Current Folder를 실행할 주차 폴더로 바꾼 다음 스크립트를 실행합니다.
 - 각 주차의 README에서 권장 실행 순서와 파일 역할을 확인할 수 있습니다.
